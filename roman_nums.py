@@ -1,6 +1,11 @@
 '''I swear, on my honor, I did not google any solutions, algorithms, or Pythom
 code related to this problem, or get another person to give me solutions,
-algorithms or Python code related to this problem. -Arjun Chitla'''
+algorithms or Python code related to this problem. -Arjun Chitla
+
+Problem:
+Write a program that will take any valid (not necessarily minimal) roman numeral as an input, and will
+print the base 10 representation of that number as well as the minimal roman numeral representation of that
+number.'''
 
 og_num = input("Enter a number in roman numerals: ")
 og_num_split = [*og_num]
